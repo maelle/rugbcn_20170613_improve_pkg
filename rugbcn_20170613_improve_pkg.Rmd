@@ -72,6 +72,31 @@ Questions any time chic@s!
 
 ## Let's use `lintr`!
 
+## Bonus tip, `lintr` unit test
+
+Forces yourself and contributors to e.g. respect coding style. 
+
+* the test
+
+```r
+if (requireNamespace("lintr", quietly = TRUE)) {
+  context("lints")
+  test_that("Package Style", {
+    lintr::expect_lint_free()
+  })
+}
+```
+
+* .lintr at the root if non-default linters
+
+```r
+with_defaults(camel_case_linter = NULL, # you prefer camel case 
+              snake_case_linter, # so flag snake case
+              line_length_linter(120)) # you love long lines
+
+```
+
+# `goodpractice`
 
 
 # Conclusion
