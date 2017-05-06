@@ -66,6 +66,14 @@ Questions any time chic@s!
 
 ## R CMD Check live
 
+# `lintr`, Static Code Analysis for R
+
+## What does `lintr` do?{data-background="img/linters.png"}
+
+## Let's use `lintr`!
+
+
+
 # Conclusion
 
 ## Tools we've seen
