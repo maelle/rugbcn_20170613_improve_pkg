@@ -1,6 +1,8 @@
 ---
 title: "Automatic tools for improving packages"
-output: revealjs::revealjs_presentation
+output:
+  revealjs::revealjs_presentation:
+    transition: slide
 ---
 
 # Introduction
@@ -48,3 +50,43 @@ For each tool,
 * Application to `fakepackage`.
 
 Questions any time chic@s!
+
+# Conclusion
+
+## Tools we've seen
+
+* R CMD check
+
+* `lintr`
+
+* `devtools::spell_check()`
+
+* `goodpractice::gp()`
+
+* `pkgdown::build_site()`
+
+## Tools we haven't seen
+
+* Continuous integration, cf [this post of Julia Silge's](http://juliasilge.com/blog/Beginners-Guide-to-Travis/)
+
+* Online code coverage services such as codecov.io
+
+* Any other suggestion?
+
+## Have your code&docs read by humans
+
+* Peer-review at work or among friends
+
+* [The R Journal](https://journal.r-project.org/), [Journal of Open Science Software](http://joss.theoj.org/about)
+
+* [rOpenSci onboarding system!](https://github.com/ropensci/onboarding) Who wants to become a reviewer?
+
+## Where to find me
+
+* Github: maelle
+
+* Twitter: ma_salmon
+
+And you can also talk to me now!
+
+Thanks for coming and listening!
