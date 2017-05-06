@@ -96,7 +96,17 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 ```
 
-# `goodpractice`
+# `goodpractice`, Advice on R Package Building 
+
+## `goodpractice` presentation
+
+* actually uses some `lintr` linters.
+
+* tunable but I like the defaults.
+
+* by the way one reference = Hadley Wickham's book ["R Packages"](http://r-pkgs.had.co.nz/)
+
+## `goodpractice` and `fakepackage`
 
 
 # Conclusion
