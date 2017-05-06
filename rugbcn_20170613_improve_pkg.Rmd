@@ -108,6 +108,13 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 ## `goodpractice` and `fakepackage`
 
+# `devtools::spell_check()`
+
+## `devtools::spell_check()`
+
+* Let's try it!
+
+* Also good to know, `devtools::release()` when submitting a package to CRAN.
 
 # Conclusion
 
