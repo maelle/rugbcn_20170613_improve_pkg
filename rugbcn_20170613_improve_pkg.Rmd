@@ -51,6 +51,21 @@ For each tool,
 
 Questions any time chic@s!
 
+
+# R CMD Check
+
+## R CMD Check, what's that?
+
+* Necessary before any CRAN submission, useful anyway
+
+* Package structure (bye bye, left-over files), missing documentation, dependencies.
+
+* Runs tests, checks examples and vignettes.
+
+* ERROR/WARNING/NOTE
+
+## R CMD Check live
+
 # Conclusion
 
 ## Tools we've seen
