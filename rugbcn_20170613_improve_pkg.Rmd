@@ -22,3 +22,29 @@ output: revealjs::revealjs_presentation
 ```{r echo = FALSE, out.width = "400px"}
 knitr::include_graphics("img/mowgli.jpg")
 ```
+
+## What does improving the package mean?
+
+* Coding style (against errors, and for future readers&contributors)
+
+* Tests (such good safeguards!)
+
+* Structure (follow the rules)
+
+* Documentation (think of the users, including you in 3 months!)
+
+## Automatic tools?
+
+* Automatic suggestions of improvements
+
+* Not automatic corrections... Animo!
+
+## Today's talk
+
+For each tool,
+
+* Introduction
+
+* Application to `fakepackage`.
+
+Questions any time chic@s!
