@@ -35,6 +35,12 @@ knitr::include_graphics("img/mowgli.jpg")
 
 * Documentation (think of the users, including you in 3 months!)
 
+## Functions for improving packages!
+
+```{r echo = FALSE, out.width = "800px"}
+knitr::include_graphics("img/tweet.png")
+```
+
 ## Automatic tools?
 
 * Automatic suggestions of improvements
@@ -68,7 +74,11 @@ Questions any time chic@s!
 
 # `lintr`, Static Code Analysis for R
 
-## What does `lintr` do?{data-background="img/linters.png"}
+## What does `lintr` do?
+
+```{r echo = FALSE, out.width = "1000px"}
+knitr::include_graphics("img/linters.png")
+```
 
 ## Let's use `lintr`!
 
