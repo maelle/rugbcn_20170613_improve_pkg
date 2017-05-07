@@ -74,7 +74,8 @@ Questions any time chic@s!
 
 # `lintr`, Static Code Analysis for R
 
-## What does `lintr` do?
+## What is Jim Hester's `lintr`?
+
 
 ```{r echo = FALSE, out.width = "1000px"}
 knitr::include_graphics("img/linters.png")
@@ -106,7 +107,7 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 ```
 
-# `goodpractice`, Advice on R Package Building 
+# `goodpractice`, Advice on R Package Building by Gabor Csardi
 
 ## `goodpractice` presentation
 
@@ -122,9 +123,35 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 ## `devtools::spell_check()`
 
+* Function written by Jeroen Ooms.
+
 * Let's try it!
 
 * Also good to know, `devtools::release()` when submitting a package to CRAN.
+
+# `pkgdown`, Generate static html documentation for an R package 
+
+## `pkgdown`
+
+* A package by Hadley Wickham.
+
+* Currently only on Github like `goodpractice`.
+
+* Minimal effort from existing documentation to website!
+
+## `pkgdown` for `fakepackage`
+
+* `pkgdown::build_website()` after correcting my name.
+
+* Change settings of the Github repo.
+
+## `pkgdown` on `fakepackage`: customization
+
+* Create a file at the root of the repo called `_pkgdown.yml`
+
+* Styles, see https://bootswatch.com/
+
+* Group functions & vignettes. Use `pkgdown::template_blabla` as starting point.
 
 # Conclusion
 
