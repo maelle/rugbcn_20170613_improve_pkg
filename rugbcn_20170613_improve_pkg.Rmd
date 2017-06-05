@@ -35,6 +35,8 @@ knitr::include_graphics("img/mowgli.jpg")
 
 * Documentation (think of the users, including you in 3 months!)
 
+* Not mentioned today: features, performance
+
 ## Functions for improving packages!
 
 ```{r echo = FALSE, out.width = "800px"}
@@ -53,7 +55,7 @@ For each tool,
 
 * Introduction
 
-* Application to `fakepackage`.
+* Application to `fakepackage`. https://github.com/maelle/fakepackage
 
 Questions any time chic@s!
 
@@ -71,6 +73,14 @@ Questions any time chic@s!
 * ERROR/WARNING/NOTE
 
 ## R CMD Check live
+
+## Not time for it but...
+
+* Continuous integration is great!
+
+https://juliasilge.com/blog/beginners-guide-to-travis/
+
+* Check out R-hub https://github.com/r-hub/rhub
 
 # `lintr`, Static Code Analysis for R
 
@@ -145,6 +155,8 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 * Change settings of the Github repo.
 
+* Add URL in repo and advertise it!
+
 ## `pkgdown` on `fakepackage`: customization
 
 * Create a file at the root of the repo called `_pkgdown.yml`
@@ -152,6 +164,8 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 * Styles, see https://bootswatch.com/
 
 * Group functions & vignettes. Use `pkgdown::template_blabla` as starting point.
+
+Example https://github.com/dirkschumacher/ompr/blob/master/_pkgdown.yml
 
 # Conclusion
 
@@ -174,6 +188,15 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 * Online code coverage services such as codecov.io
 
 * Any other suggestion?
+
+## Small tip before even creating your package
+
+Package name check via `available`. https://github.com/ropenscilabs/available
+
+```r
+available::available("dplyr")
+available::available("chicken")
+```
 
 ## Have your code&docs read by humans
 

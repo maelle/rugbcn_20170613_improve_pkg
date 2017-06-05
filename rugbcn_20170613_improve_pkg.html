@@ -507,6 +507,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <li><p>Tests (such good safeguards!)</p></li>
 <li><p>Structure (follow the rules)</p></li>
 <li><p>Documentation (think of the users, including you in 3 months!)</p></li>
+<li><p>Not mentioned today: features, performance</p></li>
 </ul>
 </section><section id="functions-for-improving-packages" class="slide level2">
 <h1>Functions for improving packages!</h1>
@@ -522,7 +523,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <p>For each tool,</p>
 <ul>
 <li><p>Introduction</p></li>
-<li><p>Application to <code>fakepackage</code>.</p></li>
+<li><p>Application to <code>fakepackage</code>. <a href="https://github.com/maelle/fakepackage" class="uri">https://github.com/maelle/fakepackage</a></p></li>
 </ul>
 <p>Questions any time <a href="mailto:chic@s">chic@s</a>!</p>
 </section></section>
@@ -536,6 +537,15 @@ document.getElementsByTagName('head')[0].appendChild(style);
 </ul>
 </section><section id="r-cmd-check-live" class="slide level2">
 <h1>R CMD Check live</h1>
+</section><section id="not-time-for-it-but" class="slide level2">
+<h1>Not time for it but…</h1>
+<ul>
+<li>Continuous integration is great!</li>
+</ul>
+<p><a href="https://juliasilge.com/blog/beginners-guide-to-travis/" class="uri">https://juliasilge.com/blog/beginners-guide-to-travis/</a></p>
+<ul>
+<li>Check out R-hub <a href="https://github.com/r-hub/rhub" class="uri">https://github.com/r-hub/rhub</a></li>
+</ul>
 </section></section>
 <section><section id="lintr-static-code-analysis-for-r" class="titleslide slide level1"><h1><code>lintr</code>, Static Code Analysis for R</h1></section><section id="what-is-jim-hesters-lintr" class="slide level2">
 <h1>What is Jim Hester’s <code>lintr</code>?</h1>
@@ -591,6 +601,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <ul>
 <li><p><code>pkgdown::build_website()</code> after correcting my name.</p></li>
 <li><p>Change settings of the Github repo.</p></li>
+<li><p>Add URL in repo and advertise it!</p></li>
 </ul>
 </section><section id="pkgdown-on-fakepackage-customization" class="slide level2">
 <h1><code>pkgdown</code> on <code>fakepackage</code>: customization</h1>
@@ -599,6 +610,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <li><p>Styles, see <a href="https://bootswatch.com/" class="uri">https://bootswatch.com/</a></p></li>
 <li><p>Group functions &amp; vignettes. Use <code>pkgdown::template_blabla</code> as starting point.</p></li>
 </ul>
+<p>Example <a href="https://github.com/dirkschumacher/ompr/blob/master/_pkgdown.yml" class="uri">https://github.com/dirkschumacher/ompr/blob/master/_pkgdown.yml</a></p>
 </section></section>
 <section><section id="conclusion" class="titleslide slide level1"><h1>Conclusion</h1></section><section id="tools-weve-seen" class="slide level2">
 <h1>Tools we’ve seen</h1>
@@ -616,6 +628,11 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <li><p>Online code coverage services such as codecov.io</p></li>
 <li><p>Any other suggestion?</p></li>
 </ul>
+</section><section id="small-tip-before-even-creating-your-package" class="slide level2">
+<h1>Small tip before even creating your package</h1>
+<p>Package name check via <code>available</code>. <a href="https://github.com/ropenscilabs/available" class="uri">https://github.com/ropenscilabs/available</a></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">available::<span class="kw">available</span>(<span class="st">&quot;dplyr&quot;</span>)
+available::<span class="kw">available</span>(<span class="st">&quot;chicken&quot;</span>)</code></pre></div>
 </section><section id="have-your-codedocs-read-by-humans" class="slide level2">
 <h1>Have your code&amp;docs read by humans</h1>
 <ul>
