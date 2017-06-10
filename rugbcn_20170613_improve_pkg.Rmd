@@ -1,7 +1,9 @@
 ---
 title: "Automatic tools for improving packages"
-output:
+output: 
   revealjs::revealjs_presentation:
+    css: rladies_revealjs.css
+    highlight: pygments
     transition: slide
 ---
 
