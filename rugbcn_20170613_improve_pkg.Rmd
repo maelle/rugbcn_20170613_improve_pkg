@@ -1,5 +1,7 @@
 ---
 title: "Automatic tools for improving packages"
+author: "Maëlle Salmon"
+date: "RUG Barcelona, 13th of June 2017"
 output: 
   revealjs::revealjs_presentation:
     css: rladies_revealjs.css
@@ -97,7 +99,6 @@ knitr::include_graphics("img/linters.png")
 
 ## Bonus tip, `lintr` unit test
 
-Forces yourself and contributors to e.g. respect coding style. 
 
 * the test
 
@@ -127,7 +128,7 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 * tunable but I like the defaults.
 
-* by the way one reference = Hadley Wickham's book ["R Packages"](http://r-pkgs.had.co.nz/)
+* "Advice includes functions and syntax to avoid, package structure, code complexity, code formatting, etc." 
 
 ## `goodpractice` and `fakepackage`
 
@@ -190,6 +191,14 @@ Example https://github.com/dirkschumacher/ompr/blob/master/_pkgdown.yml
 * Online code coverage services such as codecov.io
 
 * Any other suggestion?
+
+## Further resources
+
+* Hadley Wickham's book ["R Packages"](http://r-pkgs.had.co.nz/)
+
+* Hadley Wickham's [`strict` package](https://github.com/hadley/strict)
+
+* rOpenSci's CRAN Task View about package development https://github.com/ropensci/PackageDevelopment
 
 ## Small tip before even creating your package
 
