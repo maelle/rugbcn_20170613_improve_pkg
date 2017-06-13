@@ -1,6 +1,6 @@
 ---
 title: "Automatic tools for improving packages"
-author: "Maëlle Salmon"
+author: "Maëlle Salmon (@ma_salmon)"
 date: "RUG Barcelona, 13th of June 2017"
 output: 
   revealjs::revealjs_presentation:
@@ -124,6 +124,8 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 ## `goodpractice` presentation
 
+* https://github.com/MangoTheCat/goodpractice
+
 * actually uses some `lintr` linters.
 
 * tunable but I like the defaults.
@@ -148,7 +150,7 @@ with_defaults(camel_case_linter = NULL, # you prefer camel case
 
 * A package by Hadley Wickham.
 
-* Currently only on Github like `goodpractice`.
+* https://github.com/hadley/pkgdown
 
 * Minimal effort from existing documentation to website!
 
